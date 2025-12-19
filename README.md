@@ -1,16 +1,21 @@
-# React + Vite
+# Rick & Morty Explorer Character Gallerly (React + API)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una Single Page Application (SPA) construida con React.js que consume la API oficial de Rick and Morty. El objetivo principal fue implementar un flujo de datos asíncrono eficiente y una interfaz de usuario dinámica y responsiva con la implementación de Bootstrap 5.
 
-Currently, two official plugins are available:
+## Skills and knowleadge
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Consumo de datos y asincronía (Fecth API y Async/Away)
 
-## React Compiler
+## Development and Deployment
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Vite:** Configuración y uso de Vite como herramienta de construcción para un desarrollo más ágil.
 
-## Expanding the ESLint configuration
+**CI/CD & Hosting:** Proceso de compilación de producción y despliegue automatizado en GitHub Pages para su posterior despliegue en **Netlify**.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Explorer
+
+![alt text](src/assets/screenshot-start.png)
+
+![alt text](src/assets/screenshot-end.png)
+
+[Ver Demo en Vivo](https://rick-y-morty-personajes.netlify.app/)
